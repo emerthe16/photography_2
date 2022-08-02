@@ -1,0 +1,13 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <form method="get" action="">
+            <label>Names:</label>
+            <input type="text"name="full name" placeholder="write your name">
+            <label>salary:</label>
+            <input type="numer"name="salary" placeholder="get your salary">
+            <input type="button"
+        </form>
+
+    </body>

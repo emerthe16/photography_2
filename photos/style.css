@@ -1,0 +1,968 @@
+@font-face {
+    font-family: face;
+    src: url(./Hubballi/Hubballi-Regular.ttf);
+}
+.finda_us{
+    width:100%;
+    height: 100px;
+    background-color: rgb(43, 43, 43);
+}
+
+.container ul li{
+    display: inline-block;
+    height: 100px;
+    padding-left: 50px;
+
+}
+.clean1{
+    background-color: whitesmoke;
+    width: 160px;
+    height: auto;
+    padding:5px 30px;
+    border-radius: 10px;
+}
+.clean1:hover{
+ box-shadow: 0 0 10px rgb(127,127,0);
+
+}
+:root {
+    --color-white: rgb(255, 255, 255);
+    --color-red: rgb(255, 0, 0);
+    --color-black: rgb(0, 0, 0);
+    --color-gray: hsl(0, 0%, 35%);
+    --color-blue: rgb(104, 104, 228);
+    --color-yellow: rgb(255, 255, 0);
+    --color-blackwhite: rgb(53, 52, 52);
+    --color-background: rgb(241, 241, 241);;
+}
+button{
+    background-color: transparent;
+    border: 1px solid var(--color-red);
+    color: var(--color-black);
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+a{
+    text-decoration: none;
+    color: var(--color-black);
+}
+body{
+    font-family: face;
+    height: fit-content;
+    width: 100%;
+    overflow-x: hidden;
+    user-select: none;
+}
+.main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+   border: px solid blue;
+}
+/*--------------------------------------one----------------------------------------------*/
+.one{
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(./picture/capture\ \ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 750px;
+    color: var(--color-background);
+    overflow: hidden;
+    height: 50rem;
+}
+.head{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+.logo{
+    /* line-height: 0rem;
+    letter-spacing: 0.3rem; */
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.red{
+    color: var(--color-red);
+}
+.links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    letter-spacing: 0.1rem;
+    margin-top: 3rem;
+    font-weight: bolder;
+}
+.links a{
+    color: var(--color-background);
+}
+.capt{
+    margin-left: 25rem;
+    margin-top: 10rem;
+}
+.capt h1{    
+    letter-spacing: 0.1rem;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.one .button{
+    display: flex;
+    gap: 1rem;
+}
+.one button{
+    background-color: transparent;
+    border: 1px solid var(--color-red);
+    color: var(--color-white);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+.twoo{
+    overflow: hidden;
+    height: fit-content;
+}
+.message{
+    width: 25rem;
+    color: var(--color-black);
+    margin-left: 40rem;
+    font-size: 1rem;
+    margin-top: 5rem;
+}
+.part {
+    display: grid;
+    grid-template-columns: repeat(3,25rem);
+    column-gap: 1rem;
+    margin-top: 5rem;
+    row-gap: 1rem;
+    height: 30rem;
+    overflow: hidden;
+}
+.part .une{
+    border-radius: 2rem;
+    width: 17rem;
+    height: 17rem;
+    box-shadow: 0 4px 8px 0 rgba(15, 14, 14, 0.2),0 6px 20px 0 rgba(14, 13, 13, 0.19);
+    padding-left: 8rem;
+    padding-top: 2rem;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+.part .une:hover{
+    box-shadow: 0 0 1rem var(--color-black);
+}
+.buttom{
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    color: var(--color-white);
+    background-color: var(--color-black);
+}
+.buttom .logo{
+    margin-left: 45rem;
+}
+/*------------------------------two--------------------------------*/
+.two{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+.two .links a{
+    color: var(--color-black);
+}
+.slide{
+    height: 34rem;
+    width: 34rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+.slide img{
+    width: 34rem;
+    height: 34rem;
+}
+.ab{
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+    width: 90rem;
+    margin-left: 10rem;
+    margin-top:4rem;
+}
+.about h1{
+    font-size: 2.5rem;
+    margin-left: 3.5rem;
+}
+.about .button{
+    margin-left: 5rem;
+}
+/*------------------------------three--------------------------------*/
+.three{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+.three .links a{
+    color: var(--color-black);
+}
+.picture img{
+    width: 20rem;
+    height: 20rem;
+}
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bolder;
+}
+.service{
+    display: flex;
+    gap: 20rem;
+    align-items: center;
+}
+.card{
+    background-color: var(--color-white);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(15, 14, 14, 0.2),0 6px 20px 0 rgba(14, 13, 13, 0.19);
+}
+.card:hover{
+    box-shadow: 0 0 1rem var(--color-black);
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4 ,17rem);
+    align-items: center;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    margin-top: 1rem;
+}
+.love{
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+.les{
+    font-weight: bolder;
+    width: 8rem;
+    height: 3rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    margin-left: 42rem;
+    margin-top: 3rem;
+}
+/*------------------------------four--------------------------------*/
+.four{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+.four .links a{
+    color: var(--color-black);
+}
+.away{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 15rem;
+    gap: 8rem;
+}
+.portfolio{
+    align-items: center;
+    line-height: 0.5rem;
+}
+.portfolio h1{
+    font-size: 3rem;
+}
+.gridphoto{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(200px,200px));  
+    column-gap: 4rem;
+    row-gap: 1rem;
+    z-index: -1;
+}
+.gridphoto img{
+    width: 250px; 
+    height: 250px;
+}
+/*------------------------------five--------------------------------*/
+.five{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+.five .links a{
+    color: var(--color-black);
+}
+.status img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5rem;
+    margin-left: -2rem;
+    border: 1px solid var(--color-white);
+}
+.status{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 40rem;
+}
+.text{
+    margin-left: 20rem;
+    margin-top: 8rem;
+}
+.moni{
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+/*-----------------------------------six-------------------------------------*/
+.six{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+.six .links a{
+    color: var(--color-black);
+}
+.top .logo{
+    color: var(--color-white);
+}
+.now input{
+    width: 22rem;
+    border-radius: 1rem;
+    font-weight: bolder;
+    background-color: var(--color-white);
+    border: none;
+    outline: 0;
+    padding: 18px;
+    margin-left: 8rem;
+}
+.letter h1{
+    font-size: 3rem;
+}
+.contact{
+    font-size: 1.2rem;
+    width: 60rem;
+}
+.contact .address{
+    display: flex;
+    list-style: none;
+    line-height: 2rem;
+    gap: 5rem;
+}
+.contact .address h3:hover{
+    color: var(--color-red);
+}
+.news{
+    margin-top: 10rem;
+    width: 50rem;
+    margin-left: 12rem;
+}
+.contact .tittle{
+    margin-left: 20rem;
+}
+.middle{
+    width: 60rem;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    background-color: var(--color-background);
+    overflow: hidden;
+    height: 35rem;
+    padding-left: 5rem;
+}
+button:hover{
+    color: var(--color-red);
+    border: 1px solid var(--color-white);
+}
+.links a:hover{
+    color: var(--color-red);
+}
+.next:hover{
+    color: var(--color-white);
+    background-color: var(--color-gray);
+}
+/*                                                                  media                                                         */
+@media screen and (max-width: 1200px){
+    .head{
+        gap: 10rem;
+    }
+    .capt{
+        margin-left: 18rem;
+    }
+    .message{
+        margin-left: 25rem;
+    }
+    .part ul li {
+             display: inline-block;
+             width: 100%;
+             text-decoration: none;
+    }
+    .buttom .logo{
+        margin-left: 30rem;
+    }
+    .slide{
+        height: 30rem;
+        width: 30rem;
+    }
+    .slide img{
+        height: 30rem;
+        width: 30rem;
+    }
+    .ab{
+        gap: 10rem;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4 ,17rem);
+        column-gap: 1rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    .love{
+        margin-left: 1rem;
+        margin-top: 3rem;
+    }
+    .les{
+        margin-left: 32rem;
+        margin-top: 3rem;
+    }
+    .away{
+        margin-top: 2rem;
+        margin-left: 10rem;
+        gap: 8rem;
+    }
+    .middle{
+        margin-left: 5rem;
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 992px){
+    .head{
+        gap: 8rem;
+    }
+    .logo{
+        margin-left: 5rem;
+    }
+    .links{
+        gap: 3rem;
+    }
+    .capt{
+        margin-left: 13rem;
+    }
+    .message{
+        margin-left: 20rem;
+    }
+    .part {
+        margin-left: 5rem;
+        display: grid;
+        grid-template-columns: repeat(2,25rem);
+        height: 50rem;
+    }
+    .part .une{
+        margin-left: 1rem;
+    }
+    .buttom .logo{
+        margin-left: 25rem;
+    }
+    .ab{
+        gap: 5rem;
+        margin-left: 2rem;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(3 ,17rem);
+        column-gap: 1rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+    .service{
+        margin-left: 3rem;
+        gap: 8rem;
+    }
+    .les{
+        margin-left: 25rem;
+        margin-top: 3rem;
+    }
+    .away{
+        margin-left: 2rem;
+        gap: 5rem;
+    }
+    .middle{
+        width: 57rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        border-radius: 1rem;
+        height: 35rem;
+        padding-left: 1rem;
+    }
+}
+@media screen and (max-width: 800px){
+    .head{
+        gap: 5rem;
+    }
+    .logo{
+        margin-left: 3rem;
+    }
+    .links{
+        gap: 2rem;
+    }
+    .message{
+        margin-left: 15rem;
+    }
+    .part {
+        margin-left: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2,23rem);
+        height: 50rem;
+    }
+    .buttom .logo{
+        margin-left: 20rem;
+    }
+    .slide{
+        height: 30rem;
+        width: 25rem;
+    }
+    .slide img{
+        height: 30rem;
+        width: 25rem;
+    }
+    .ab{
+        gap: 2rem;
+        margin-left: 2rem;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2 ,17rem);
+        column-gap: 1rem;
+        margin-top: 1rem;
+        margin-left: 6rem;
+    }
+    .service{
+        margin-left: 2rem;
+        gap: 0rem;
+    }
+    .les{
+        margin-left: 20rem;
+    }
+    .away{
+        margin-left: 0rem;
+        gap: 0rem;
+    }
+    .gridphoto{
+        display: grid;
+        grid-template-columns: repeat(2,minmax(200px,200px));  
+        column-gap: 2rem;
+        row-gap: 1rem;
+        z-index: -1;
+    }
+    .gridphoto img{
+        width: 225px; 
+        height: 240px;
+    }
+    .status{
+        margin-left: 30rem;
+    }
+    .text{
+        margin-left: 10rem;
+    }
+    .moni{
+        margin-left: 3rem;
+    }
+    .middle{
+        width: 45rem;
+        margin-left:2rem;
+        margin-top: 1rem;
+        border-radius: 1rem;
+        height: 35rem;
+        padding-left: 1rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .part {
+        margin-left: 0rem;
+    }
+    .ab{
+        gap: 1rem;
+        margin-left: 1rem;
+    }
+    .away{
+        display: block;
+        margin-left: 7rem;
+        margin-top: 1rem;
+     }
+     .gridphoto{
+        display: grid;
+        grid-template-columns: repeat(2,minmax(200px,200px));  
+        column-gap: 4rem;
+        row-gap: 1rem;
+        margin-top: 1rem;
+    }
+     .gridphoto img{
+        width: 250px; 
+        height: 250px;
+    }
+    .middle{
+        width: 45rem;
+        margin-left:1rem;
+        padding-left: 0rem;
+    }
+    .news{
+        margin-top: 5rem;
+        width: 50rem;
+        margin-left: 10rem;
+    }
+    .contact .tittle{
+        margin-left: 15rem;
+    }
+    .contact .address{
+        display: inline-flex;
+        line-height: 2rem;
+        gap: 1rem;
+    }
+    .now input{
+        width: 22rem;
+        border-radius: 1rem;
+        padding: 15px;
+        margin-left: 5rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .links{
+        margin-left: 3rem;
+        gap: 3rem;
+    }
+    .head{
+        display: block;
+        gap: 0rem;
+    }
+    .logo{
+        margin-left: 12rem;
+    }
+    .capt{
+        margin-left: 6rem;
+    }
+    .message{
+        margin-left: 6rem;
+    }
+    .part {
+        margin-left: 6rem;
+        display: grid;
+        grid-template-columns: repeat(1,23rem);
+        height: 75rem;
+    }
+    .buttom .logo{
+        margin-left: 14rem;
+    }
+    .ab{
+        display: block;
+    }
+    .about{
+        margin-left: 7rem;
+    }
+    .slide{
+        margin-top: 2rem;
+        height: 30rem;
+        width: 30rem;
+        margin-left: 2.7rem;
+    }
+    .slide img{
+        height: 30rem;
+        width: 30rem;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2 ,17rem);
+        column-gap: 1rem;
+        margin-top: 1rem;
+        margin-left: 0rem;
+    }
+    .service{
+        margin-left: 2rem;
+        gap: 0rem;
+    }
+    .les{
+        margin-left: 15rem;
+    }
+    .away{
+        margin-left: 3rem;
+        margin-top: 4rem;
+     }
+    .status{
+        margin-left: 15rem;
+    }
+    .text{
+        margin-left: 3rem;
+    }
+    .moni{
+        margin-left: 2rem;
+    }
+    .middle{
+        width: 34rem;
+        margin-top: 1rem;
+        border-radius: 1rem;
+        height: fit-content;
+        padding-left: 1rem;
+    }
+    .news{
+        margin-left: 8rem;
+    }
+    .now input{
+        width: 20rem;
+        border-radius: 1rem;
+        padding: 15px;
+        margin-left: 0rem;
+    }
+    .contact .tittle{
+        margin-left: 10rem;
+    }
+    .contact .address{
+        display: block;
+        line-height: 2rem;
+        gap: 1rem;
+        margin-left: 7rem;
+    }
+}
+@media screen and (max-width: 450px){
+    .logo{
+        margin-left: 9rem;
+    }
+    .links{
+        margin-left: 3rem;
+        gap: 1.3rem;
+    }
+    .message{
+        margin-left: 3rem;
+    }
+    .part {
+        margin-left: 2rem;
+        display: grid;
+        grid-template-columns: repeat(1,23rem);
+        height: 75rem;
+    }
+    .buttom .logo{
+        margin-left: 9rem;
+    }
+    .about{
+        margin-left: 3rem;
+    }
+    .slide img{
+        height: 28rem;
+        width: 25.5rem;
+    }
+    .slide{
+        height: 28rem;
+        width: 25.5rem;
+        margin-left: 0rem;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1 ,17rem);
+        margin-left: 4.5rem;
+    }
+    .service{
+        display: block;
+        margin-left: 2rem;
+        gap: 0rem;
+    }
+    .les{
+        margin-left: 10rem;
+    }
+    .gridphoto{
+        display: grid;
+        grid-template-columns: repeat(1,minmax(200px,200px));  
+        column-gap: 4rem;
+        row-gap: 1rem;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    .away{
+        margin-left: 4rem;
+    }
+    .status{
+        margin-left: 10rem;
+    }
+    .text{
+        margin-left: 2rem;
+    }
+    .moni{
+        margin-left: 0rem;
+    }
+    .middle{
+        width: 25rem;
+        margin-top: 1rem;
+        border-radius: 1rem;
+        height: fit-content;
+        padding-left: 1rem;
+    }
+    .news{
+        margin-left: 4rem;
+    }
+    .now{
+        margin-left: 2rem;
+    }
+    .now input{
+        display: block;
+        width: 20rem;
+        border-radius: 1rem;
+        padding: 15px;
+    }
+    .contact .tittle{
+        margin-left: 8rem;
+    }
+    .contact .address{
+        margin-left: 2rem;
+    }
+}
+@media screen and (max-width: 415px){
+    .logo{
+        margin-left: 7rem;
+    }
+    .links{
+        margin-left: 1rem;
+        gap: 1.3rem;
+    }
+    .capt{
+        margin-left: 2rem;
+    }
+    .message{
+        margin-left: 2rem;
+    }
+    .part {
+        margin-left: 1rem;
+        display: grid;
+        grid-template-columns: repeat(1,23rem);
+        height: 75rem;
+    }
+    .slide img{
+        height: 28rem;
+        width: 24rem;
+    }
+    .slide{
+        height: 28rem;
+        width: 24rem;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1 ,17rem);
+        margin-left: 3.5rem;
+    }
+    .service{
+        display: block;
+        margin-left: 2rem;
+        gap: 0rem;
+    }
+    .les{
+        margin-left: 8rem;
+    }
+    .gridphoto{
+        margin-left: 1rem;
+    }
+    .status{
+        margin-left: 7rem;
+    }
+    .text{
+        margin-left: 0rem;
+    }
+    .moni{
+        margin-left: 0rem;
+    }
+    .middle{
+        width: 23rem;
+        margin-top: 1rem;
+        border-radius: 1rem;
+        height: fit-content;
+        padding-left: 1rem;
+    }
+    .news{
+        margin-left: 3rem;
+    }
+    .now{
+        margin-left: 0rem;
+    }
+    .contact .tittle{
+        margin-left: 6rem;
+    }
+    .contact .address{
+        margin-left: 0rem;
+    }
+}
+@media screen and (max-width: 390px){
+    .logo{
+        margin-left: 6rem;
+    }
+    .links{
+        margin-left: 1rem;
+        gap: 1rem;
+    }
+    .message{
+        margin-left: 1rem;
+    }
+    .part {
+        margin-left: 0.2rem;
+        display: grid;
+        grid-template-columns: repeat(1,23rem);
+        height: 75rem;
+    }
+    .buttom .logo{
+        margin-left: 7rem;
+    }
+    .about{
+        margin-left: 1rem;
+    }
+    .slide img{
+        height: 26rem;
+        width: 22.3rem;
+    }
+    .slide{
+        height: 26rem;
+        width: 22.3rem;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1 ,17rem);
+        margin-left: 2.5rem;
+    }
+    .away{
+        margin-left: 2rem;
+    }
+    .gridphoto{
+        margin-left: 2.5rem;
+    }
+    .middle{
+        width: 21.5rem;
+        margin-top: 1rem;
+        border-radius: 1rem;
+        height: fit-content;
+        padding-left: 0rem;
+    }
+    .news{
+        margin-left: 2rem;
+    }
+.clean1{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border-color: 2px black;
+}
